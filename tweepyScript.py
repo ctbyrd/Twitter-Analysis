@@ -15,10 +15,10 @@ class GetTweets:
         import tweepy #Used to connect to the Twitter API
 
         #Authentication tokens
-        consumer_key = "0Kv3XUgyYL43VeD2b2I6gcRvj"
-        consumer_secret = "eI0XfCCAy9SIxIvqDlRyM3Ubs58J9eUlKC6OhnrP7yTaSiRa4f"
-        access_token = "803856264195375104-Q0eDjYiVxzXwB2Y8KeramMdwypBSYyz"
-        access_token_secret = "LSL94aUV5U1kRl6XyCZb8GgJ0LLnWNJMlf8MN17HxbExx"
+        consumer_key = ""
+        consumer_secret = ""
+        access_token = ""
+        access_token_secret = ""
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
@@ -54,10 +54,10 @@ class GetTweets:
         """
         import tweepy
         #Authentication to Twitter API
-        consumer_key = "0Kv3XUgyYL43VeD2b2I6gcRvj"
-        consumer_secret = "eI0XfCCAy9SIxIvqDlRyM3Ubs58J9eUlKC6OhnrP7yTaSiRa4f"
-        access_token = "803856264195375104-Q0eDjYiVxzXwB2Y8KeramMdwypBSYyz"
-        access_token_secret = "LSL94aUV5U1kRl6XyCZb8GgJ0LLnWNJMlf8MN17HxbExx"
+        consumer_key = ""
+        consumer_secret = ""
+        access_token = ""
+        access_token_secret = ""
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)

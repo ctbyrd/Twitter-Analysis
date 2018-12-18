@@ -132,10 +132,10 @@ class TweetAnalysis:
         import matplotlib.pyplot as plot
 
         #Twitter Authentication
-        consumer_key = "RL4pgPIV8SaCXXwAmkg07M0fl"
-        consumer_secret = "EyaB325pTuLeoS5rlW9dmVlfw6k9N0m19ndx4MyAUyDTEYasTu"
-        access_token = "1602024776-fXXhqaBFJ3u8bxuYoodseQxHseXO8CitE7jJlAR"
-        access_token_secret = "Md6qcYxvymRCpuuKLvtpRWVoOGkDR4taUDQBZHWrcFDAg"
+        consumer_key = ""
+        consumer_secret = ""
+        access_token = ""
+        access_token_secret = ""
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
@@ -192,10 +192,10 @@ class TweetAnalysis:
         import matplotlib.pyplot as plt
 
         #Twitter Authentication
-        consumer_key = "RL4pgPIV8SaCXXwAmkg07M0fl"
-        consumer_secret = "EyaB325pTuLeoS5rlW9dmVlfw6k9N0m19ndx4MyAUyDTEYasTu"
-        access_token = "1602024776-fXXhqaBFJ3u8bxuYoodseQxHseXO8CitE7jJlAR"
-        access_token_secret = "Md6qcYxvymRCpuuKLvtpRWVoOGkDR4taUDQBZHWrcFDAg"
+        consumer_key = ""
+        consumer_secret = ""
+        access_token = ""
+        access_token_secret = ""
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
